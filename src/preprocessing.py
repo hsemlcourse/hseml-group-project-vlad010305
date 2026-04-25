@@ -1,8 +1,6 @@
-from typing import Tuple
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
 
 RANDOM_STATE = 42
 
@@ -25,7 +23,7 @@ LEAKAGE_COLS = [
 def split_features_target(
     df: pd.DataFrame,
     target_col: str = TARGET_COL,
-) -> Tuple[pd.DataFrame, pd.Series]:
+) -> tuple[pd.DataFrame, pd.Series]:
     """Split dataframe into features and target.
 
     ID columns and leakage columns are removed from features.
