@@ -33,6 +33,7 @@ env/
 # Data — large files are NOT committed
 # =============================================================================
 data/raw/*.csv
+!data/raw/ai4i2020.csv
 data/raw/*.json
 data/raw/*.parquet
 data/raw/*.xlsx
@@ -65,11 +66,11 @@ models/*.onnx
 # =============================================================================
 # Reports — figures are regenerated, but keep CSV
 # =============================================================================
-reports/figures/*.png
-reports/figures/*.jpg
-reports/figures/*.svg
-reports/figures/*.pdf
-!reports/figures/.gitkeep
+report/figures/*.png
+report/figures/*.jpg
+report/figures/*.svg
+report/figures/*.pdf
+!report/figures/.gitkeep
 # ablation_table.csv must be committed — do NOT add it here
 
 # =============================================================================
