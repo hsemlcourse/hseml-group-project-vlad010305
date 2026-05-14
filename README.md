@@ -28,7 +28,10 @@
 
 **Датасет:** AI4I 2020 Predictive Maintenance Dataset.
 
-**Источник:** Kaggle — Predictive Maintenance Dataset AI4I 2020.
+**Источник:** Kaggle.
+
+**Ссылка на датасет:**  
+https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification
 
 **Целевая переменная:** `Machine failure`.
 
