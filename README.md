@@ -31,7 +31,7 @@
 **Источник:** Kaggle.
 
 **Ссылка на датасет:**  
-https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification
+[https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
 
 **Целевая переменная:** `Machine failure`.
 
